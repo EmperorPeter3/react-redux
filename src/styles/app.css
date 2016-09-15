@@ -1,0 +1,69 @@
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*end reset*/
+
+h3 {
+  font-size: 22px;
+  margin: 10px 0 0;
+}
+.app {
+  margin: 50px;
+  font: 14px sans-serif;
+}
+.pageBlock {
+  border: 2px solid #725FE3;
+  width: 80%;
+}
+.userBlock {
+  border: 2px solid #E35F5F;
+  width: 20%;
+  vertical-align: top;
+}
+.inp{
+  height: 30px;
+}
+
+.btn {
+  margin-left: 15px;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  outline: 0;
+  padding: 0 2rem;
+  vertical-align: middle;
+  color: #fff;
+  background-color: #6383a8;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #6d8cb0
+}
